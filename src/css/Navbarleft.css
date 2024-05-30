@@ -1,0 +1,17 @@
+.navbarleft{
+    width: 6em;
+    height: 100vh;
+    background:url(../images/Main/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-right:1px solid gray ;
+    /* padding-top: 6em; */
+}
+
+.navbar-left-icone{
+    margin-top: 8em;
+}
+.icone-left{
+    width: 40px;
+    margin: 3.5em auto;
+}

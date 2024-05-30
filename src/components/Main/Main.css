@@ -1,0 +1,96 @@
+
+.body-container-light{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: url(../../images/Main/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body-container-dark{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: url(../../images/Main/nuit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar1{
+    padding: 25px 0px;
+    border-bottom: 2px solid white ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-container{
+    width: 85%;
+    height: auto;
+    margin: 1em auto;
+    
+}
+
+
+.navbar-search{
+    background-color: white;
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.navbar-title{
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.navbar-icone{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+select{
+width: 30px;
+height: 30px;
+} 
+
+
+.navbar-link ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+.navbar-link ul li{
+    list-style: none;
+}
+
+.navbar-link ul li a{
+   text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.main-p{
+    width: 450px;
+    padding:0px 40px 20px 80px;
+    color: white;
+    margin-top: 8.5em;
+    font-size: 1.5em;
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur;
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-left: 10px solid white;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+
+
+.connectify{
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+}

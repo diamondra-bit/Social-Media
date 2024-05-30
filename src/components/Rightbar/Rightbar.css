@@ -1,0 +1,16 @@
+
+
+.rightbar-container{
+    width: 80%; 
+     margin: 0 auto; 
+}
+@media (max-width:1024px){
+    .rightbar-container{
+       width: 85%;
+    }
+}
+@media (max-width:768px){
+    .rightBar{
+       display: none;
+    }
+}

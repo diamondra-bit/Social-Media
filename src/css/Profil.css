@@ -1,0 +1,128 @@
+
+:root{
+    --background:#fff;
+    }
+    
+    [data-theme="dark"]{
+    --background:#1b223299;
+    }
+    .profil-online-container{
+        width: 25%;
+        height: 83vh;
+        margin-top: 20px;
+        margin-left: 25px;
+      
+    }  
+.profil-container{
+    height: auto;
+    background-color: var(--background);
+}
+.online-container{
+    height: 22vh;
+    margin-top: 10px;
+    background-color: var(--background);
+    overflow: auto;
+}
+
+/* Couverture */
+.couverture{
+    margin: 0em auto;
+    width: 90%;
+}
+.photo-couverture{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+/* Profile */
+.photo-profile2{
+    width: 6.5em;
+    height: 6.5em;
+    border-radius: 50%;
+}
+.profile2{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    margin: -3.25em auto;
+    border: 5px solid white;
+    z-index: 2;
+    position: relative;
+    background: url(../image/profile.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profile-nom{
+ margin-top: 3.6em;
+ text-align: center;
+ font-weight: 600;
+ font-size: 1.1em;
+}
+
+.profile-nombre-post{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Nombre Followers */
+.block{
+    display: block;
+    margin-top: 1.5em;
+    text-align: center;
+}
+.bold{
+    font-weight: 700;
+}
+
+/* Bouton Edit */
+.button{
+    padding:10px;
+    margin-bottom: 20px;
+    background-color: #2748b5b2;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 0.8em;
+    width: 100%;
+}
+.button-div{
+    width: 90%;
+    margin: 1.8em auto;
+}
+
+/*Story */
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.friend-request{
+    width: 90%;
+    margin: 1em auto;
+}
+.button-confirm{
+    background-color: #2748b5b2;
+    border:none;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 15px;
+    margin-left: 8px;
+}
+
+.online-title{
+    font-weight: 700;
+    padding:10px 20px 0px;
+}
+/* .new-story{
+width: 5em;
+height: 8em;
+background-color: #1b223299;
+border-radius: 20px;
+}
+
+.story-div{
+    display: flex;
+    justify-content: space-around;
+} */

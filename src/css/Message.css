@@ -1,0 +1,55 @@
+.flex{
+    display: flex;
+}
+/* Chat */
+.chat{
+    border-right: 1px solid gray;
+    width: 25%;
+    height: 100vh;
+    overflow: auto;
+}
+.title{
+    font-size: 2.5em;
+    font-weight: 600;
+    color: black;
+    padding: 10px 20px;
+}
+
+table{
+    margin-top: 2.3em;
+}
+
+table td{
+    padding: 6px;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-right: 20px;
+}
+table tr{
+    padding: 20px;
+}
+.profile-chat{
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    background-color: brown;
+    margin: 15px 20px;
+}
+.block{
+    display: block;
+}
+
+
+/* Chat real */
+.chat-real{
+    width: 50%;
+    height: 100vh;
+    border-right: 1px solid gray;
+}
+
+/* Online */
+.chat-online{
+    width: 25%;
+    height: 100vh;
+    overflow: auto;
+}
